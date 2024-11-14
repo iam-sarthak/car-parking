@@ -1,0 +1,94 @@
+.app{
+background-color: #fbe9d0;
+height: 100vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+gap: 40px;
+padding-top: 40px;
+
+}
+.navbar{
+    background-color: #874f41;
+    width: 80%;
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    background-color: #244855;
+    width: 80%;
+    height: 70%;
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .form h2{
+    text-align: center;
+    color: #fbe9d0;
+  }
+  .form input{
+    background-color: #fbe9d077;
+    border: 1px #244855;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  .form input::placeholder{
+    color: #072530;
+  }
+  .form button{
+    background-color: #e64833;
+    border: 1px #e64833;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  .form textarea{
+    background-color: #fbe9d077;
+    border: 1px #244855;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  .form textarea::placeholder{
+    color: #072530;
+  }
+  .form ul{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+  }
+  .form ul li a{
+    text-decoration: none;
+      color: #244855;
+      padding: 2px 4px;
+      background-color: #fbe9d0;
+      border-radius: 5px;
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+  .form ul li a:hover{
+    color: #fbe9d0;
+    background-color: #fbe9d077;
+  
+  }
