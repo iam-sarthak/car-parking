@@ -8,7 +8,7 @@ const Auth = ({ setToken }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = isLogin ? 'http://localhost:5000/api/auth/login' : 'http://localhost:5000/api/auth/register';
+    const url = isLogin ? 'https://car-parking-bice.vercel.app/api/auth/login' : 'https://car-parking-bice.vercel.app//api/auth/register';
     try {
       const response = await axios.post(url, { email, password });
       setToken(response.data.token);

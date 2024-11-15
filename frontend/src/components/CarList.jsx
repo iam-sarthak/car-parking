@@ -8,7 +8,7 @@ const CarList = ({ token }) => {
 
   const fetchCars = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/cars', {
+      const response = await axios.get('https://car-parking-bice.vercel.app/api/cars', {
         headers: {
           Authorization: `Bearer ${token}`,
         },

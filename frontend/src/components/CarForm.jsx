@@ -16,7 +16,7 @@ const CarForm = ({ token, fetchCars }) => {
     images.forEach(image => formData.append('images', image));
 
     try {
-      await axios.post('http://localhost:5000/api/cars', formData, {
+      await axios.post('https://car-parking-bice.vercel.app/api/cars', formData, {
         headers: {
           'Authorization': token,
           'Content-Type': 'multipart/form-data',
