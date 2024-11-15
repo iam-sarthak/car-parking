@@ -1,8 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const authRoutes = require('./routes/auth');
-const carRoutes = require('./routes/cars');
+const authRoutes = require('./routes/auth.js');
+const carRoutes = require('./routes/cars.js');
 
 require('dotenv').config();
 const PORT = process.env.PORT || 5000;
