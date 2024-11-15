@@ -16,6 +16,10 @@ app.use(cors());
 app.use('/api/auth', authRoutes);
 app.use('/api/cars', carRoutes);
 
+app.use('/', (req, res)=>{
+  res.send("hello this is home");
+})
+
 // Connect to MongoDB and start server
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
